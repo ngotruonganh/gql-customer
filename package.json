@@ -1,0 +1,26 @@
+{
+  "name": "graphql_customers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-datasource-mongodb": "^0.5.4",
+    "apollo-server": "^3.11.1",
+    "dotenv": "^16.0.3",
+    "graphql": "^15.8.0",
+    "mongoose": "^6.8.3",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2"
+  }
+}

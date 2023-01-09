@@ -1,0 +1,13 @@
+# npm
+node_modules
+
+# local setup
+.vscode
+
+# environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
