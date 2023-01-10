@@ -19,6 +19,5 @@ export const typeDefs = gql`
       CustomerOrder: Int!
       CustomerType: String!
     ): Customer!
-    deleteCustomer(id: ID!): Customer!
   }
 `;

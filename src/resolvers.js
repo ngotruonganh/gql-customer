@@ -11,8 +11,5 @@ export const resolvers = {
     createCustomer: async (_, args, { dataSources: { customers } }) => {
       return customers.createCustomer(args);
     },
-    deleteCustomer: async (_, { id }, { dataSources: { customers } }) => {
-      return customers.deleteCustomer(id);
-    },
   },
 };
